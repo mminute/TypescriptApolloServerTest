@@ -19,4 +19,4 @@ The tsc command tells TypeScript to compile the application and place the genera
 [Get started with Apollo Server](https://www.apollographql.com/docs/apollo-server/getting-started/)
 
 7. `npm install apollo-server graphql`
-8. 
+8. Follow example server setup
