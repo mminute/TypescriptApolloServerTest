@@ -20,3 +20,21 @@ The tsc command tells TypeScript to compile the application and place the genera
 
 7. `npm install apollo-server graphql`
 8. Follow example server setup
+
+9. Install `ts-node` to run Typscript files without first compiling it to plain JavaScript
+`npm i -g ts-node`
+ex) `ts-node src/app.ts`
+
+10. Install `nodemon`: `npm install --save-dev nodemon`
+Add scripts to `package.json` that run `nodemon`
+ex)
+```
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/app.ts",
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  ```
+
+Then run `npm run dev` to start your development server.

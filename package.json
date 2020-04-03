@@ -4,6 +4,8 @@
   "description": "Test building node/typescript/graphql-server",
   "main": "dist/app.js",
   "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/app.ts",
     "start": "tsc && node dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
