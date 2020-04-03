@@ -27,6 +27,7 @@ ex) `ts-node src/app.ts`
 
 10. Install `nodemon`: `npm install --save-dev nodemon`
 Add scripts to `package.json` that run `nodemon`
+[How to Set Up a TypeScript + Node.js App in 5 Minutes](https://levelup.gitconnected.com/how-to-set-up-a-typescript-node-js-app-in-5-minutes-93ffee3b1768)
 ex)
 ```
   "scripts": {
